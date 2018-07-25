@@ -1,5 +1,5 @@
 # Project Name
-PBA-Sofian-Jessy
+Behance-Jessy
 
 ## Contributing
 1. Fork it!
@@ -10,8 +10,8 @@ PBA-Sofian-Jessy
 
 ## Restriction
 
-Did a reconstitution of the web site PBA-Lille We can use CSS / HTML / Bootstrap
+Did a reconstitution of the web site Behance We can use CSS / HTML / Bootstrap
 
 ## Creators
 
-Sofian / Jessy
+Jessy
