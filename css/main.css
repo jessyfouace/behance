@@ -205,6 +205,51 @@ div[class="position-fixed nav2 overflow-y-hidden mx-0 px-0 text-center bg-white"
     ==========================================================================
     ========================================================================== */
 
+.colorlinkjobs {
+  color: #2f57ff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.littlesizejobs {
+  font-size: 12px;
+  color: #9c7881;
+}
+
+.bordertop1px {
+  border-top: 1px solid #e8e8e8;
+}
+
+.colorlinkjobs:hover {
+  color: #2f57ff;
+  text-decoration: underline;
+  text-decoration-color: #2f57ff;
+}
+
+.boxshadow3 {
+  box-shadow: 3px 3px 3px 3px #f5f5f5;
+}
+
+.borderbottom1px{
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.bggris3 {
+  background: #fafafa;
+}
+
+.sizefortitle2 {
+  font-size: 12px;
+}
+
+.boxshadow2 {
+  box-shadow: 0px 0px 2px 2px #f5f5f5;
+}
+
+.bggris2 {
+  background: #f5f5f5;
+}
+
 .bggris {
   background: #191919;
 }
@@ -256,6 +301,11 @@ div[class="position-fixed nav2 overflow-y-hidden mx-0 px-0 text-center bg-white"
 
 .blacktoblack:hover {
   color: black;
+}
+
+.footerjobs {
+  bottom: 0;
+  width: 100%;
 }
 
 /* ==========================================================================
@@ -359,7 +409,7 @@ a {
 a:hover {
   color: white;
 }
-
+.middlejobs,
 .text-toppage {
   padding-top: 150px;
 }
@@ -379,6 +429,37 @@ h2 {
 .fa-eye {
   font-weight: 100;
 }
+
+/* JOBS PAGE */
+
+.buttonpost {
+  background: #04ac00;
+  border: none;
+  border-radius: 40px;
+  color: white;
+}
+
+#example-search-input2,
+#example-search-input {
+  width: 180px;
+  border-radius: 40px;
+}
+
+.fa-search-jobs {
+  position: absolute;
+  padding-top: 12px;
+}
+
+.mobilesearch {
+  margin-left: 14%;
+}
+
+input[placeholder="Type Company"],
+input[placeholder="Search Keywords"]{
+  padding-left: 35px;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
