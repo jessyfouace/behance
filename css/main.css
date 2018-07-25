@@ -1,0 +1,545 @@
+/*! HTML5 Boilerplate v6.1.0 | MIT License | https://html5boilerplate.com/ */
+
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+    resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+   /* ==========================================================================
+     ==========================================================================
+     ==========================================================================
+     ==========================================================================
+     ==========================================================================
+                                FIRST NAV
+      ==========================================================================
+      ==========================================================================
+      ==========================================================================
+      ==========================================================================
+      ========================================================================== */
+
+.signemail {
+  background: #0057ff;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.signemail:hover {
+  background: #003ecb;
+}
+
+.fa-facebook {
+  color: #3b5998;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+input[class="mr-3 greytowhite pointer"] {
+  background: inherit;
+  border: 1px solid #191919;
+}
+
+.signup {
+  color: black;
+  border-radius: 20px;
+  border: none;
+  width: 150px;
+}
+
+.signup:hover {
+  background-color: #f1f1f1;
+}
+
+.langage {
+  background-color: inherit;
+  border: none;
+  color: white;
+  width: 100px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  margin: auto;
+}
+
+
+   /* ==========================================================================
+     ==========================================================================
+     ==========================================================================
+     ==========================================================================
+     ==========================================================================
+                                SECOND NAV
+      ==========================================================================
+      ==========================================================================
+      ==========================================================================
+      ==========================================================================
+      ========================================================================== */
+
+.overflow-y-hidden{
+  overflow-y : hidden
+}
+
+.nav2{
+ width : 100%;
+ height : 50px;
+ border-bottom : 2px solid #f8f8f8;
+ padding-top: 8px;
+}
+.nav2 b{
+ white-space : nowrap;
+}
+
+.nav2 a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+div[class="position-fixed nav2 overflow-y-hidden mx-0 px-0 text-center bg-white"]{
+  margin-top: 56px;
+  z-index: 49;
+}
+
+    /* ==========================================================================
+    ==========================================================================
+    ==========================================================================
+    ==========================================================================
+    ==========================================================================
+                                      COLOR
+    ==========================================================================
+    ==========================================================================
+    ==========================================================================
+    ==========================================================================
+    ========================================================================== */
+
+.bggris {
+  background: #191919;
+}
+
+.bluecolor {
+  color: #0057ff;
+}
+
+.blacktoblue {
+  color: black;
+}
+
+.blacktoblue:hover {
+  color: blue;
+}
+
+.backgroundblack {
+  background: black;
+}
+
+.bluecolor {
+  color: blue;
+}
+
+.blackcolor {
+  color: black;
+}
+
+.bluebg {
+  background: blue;
+}
+
+.fontsizet {
+  font-size: 20px;
+  padding-top: 12px;
+}
+
+.greytowhite {
+  color: #a4a4a4;
+}
+
+.greytowhite:hover {
+  color: white;
+}
+
+/* ==========================================================================
+==========================================================================
+==========================================================================
+==========================================================================
+==========================================================================
+                                  START MIDDLE
+==========================================================================
+==========================================================================
+==========================================================================
+==========================================================================
+========================================================================== */
+
+.sizefortitle {
+  font-size: 16px;
+}
+
+.cardfirstline {
+  padding-top: 75px;
+}
+
+.cardallnextline {
+  margin-top: 75px;
+}
+
+.titleleftimg {
+  color: black;
+}
+.titleleftimg:hover{
+  text-decoration-color: black;
+}
+
+.btn-primary {
+  border-radius: 30px;
+}
+
+.card-footer {
+  background: white;
+  border:1px solid #dfdfdf;
+  font-size: 12px;
+  font-weight:
+}
+
+.littlesize {
+  font-size: 13px;
+}
+
+#font-weight-100 {
+  font-weight: 100;
+}
+
+div[class="col-1 pr-0 pl-0  m-auto text-center pointer"] {
+  color: #dcdcdc;
+}
+
+div[class="col-1 pr-0 pl-0  m-auto text-center pointer"]:hover {
+  color: #c3c3c3;
+}
+
+.greycolor {
+  color:#766969;
+}
+
+li[class="list-inline-item"]a {
+  text-decoration: none;
+  color: #766969;
+}
+
+li[class="list-inline-item"]:hover {
+  color: white;
+}
+
+.cardfooter {
+ bottom: 0;
+}
+
+.footertext {
+  font-size: 9px;
+}
+
+.bottomfooter {
+  border-top: 1px solid #333333;
+}
+
+select[class="form-control text-center footertext col-12 px-0 mx-0 pointer pt-0"]{
+  background-color: inherit;
+  border: none;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #766969;
+}
+
+a:hover {
+  color: white;
+}
+
+.text-toppage {
+  padding-top: 150px;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.fa-thumbs-up {
+  font-weight: 100;
+}
+
+.fa-eye {
+  font-weight: 100;
+}
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+    display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+    white-space: nowrap; /* 1 */
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+    white-space: inherit;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 1.25dppx),
+       (min-resolution: 120dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+    *,
+    *:before,
+    *:after {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster */
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: "";
+    }
+
+    pre {
+        white-space: pre-wrap !important;
+    }
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    /*
+     * Printing Tables:
+     * http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
