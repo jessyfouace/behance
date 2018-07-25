@@ -205,6 +205,14 @@ div[class="position-fixed nav2 overflow-y-hidden mx-0 px-0 text-center bg-white"
     ==========================================================================
     ========================================================================== */
 
+.countera {
+  color: black;
+}
+
+.countera:hover {
+  color: black;
+}
+
 .colorlinkjobs {
   color: #2f57ff;
   text-decoration: none;
@@ -258,6 +266,10 @@ div[class="position-fixed nav2 overflow-y-hidden mx-0 px-0 text-center bg-white"
   color: #0057ff;
 }
 
+.bluecolor:hover {
+  color: #0057ff;
+}
+
 .blacktoblue {
   color: black;
 }
@@ -268,10 +280,6 @@ div[class="position-fixed nav2 overflow-y-hidden mx-0 px-0 text-center bg-white"
 
 .backgroundblack {
   background: black;
-}
-
-.bluecolor {
-  color: blue;
 }
 
 .blackcolor {
