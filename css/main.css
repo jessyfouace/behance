@@ -382,6 +382,10 @@ li[class="list-inline-item"] a {
   color: #766969;
 }
 
+.bghover:hover {
+  background: #fafafa;
+}
+
 li[class="list-inline-item"]:hover {
   color: white;
 }
