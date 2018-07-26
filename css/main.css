@@ -355,7 +355,6 @@ div[class="position-fixed nav2 overflow-y-hidden mx-0 px-0 text-center bg-white"
   background: white;
   border:1px solid #dfdfdf;
   font-size: 12px;
-  font-weight:
 }
 
 .littlesize {
@@ -378,7 +377,7 @@ div[class="col-1 pr-0 pl-0  m-auto text-center pointer"]:hover {
   color:#766969;
 }
 
-li[class="list-inline-item"]a {
+li[class="list-inline-item"] a {
   text-decoration: none;
   color: #766969;
 }
