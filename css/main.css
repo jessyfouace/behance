@@ -462,11 +462,6 @@ h2 {
   margin-left: 14%;
 }
 
-input[placeholder="Type Company"],
-input[placeholder="Search Keywords"]{
-  padding-left: 35px;
-}
-
 
 /* ==========================================================================
    Helper classes
